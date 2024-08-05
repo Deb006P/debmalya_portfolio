@@ -495,8 +495,8 @@ margin: 15px;
         /* height: 200px; */
         /* border: solid; */
         color: rgb(129, 255, 253);
-        margin: 50px;
-        
+        margin: 2px;
+        margin-left: 32px;
     }
     .btn {
         margin-top: 45px;
