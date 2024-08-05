@@ -182,12 +182,13 @@ margin: 15px;
     display: flex;
 }
 .content img{
-    width: 400px;
+    width: 259px;
     margin: 62px;
-    margin-left: 215px;
+    margin-top: 95px;
+    margin-left: 114px;
     /* border: 1px; */
     border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(62 178 190 / 75%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(62 178 190 / 75%)
 
 }
 .sec_3 #head{
@@ -498,7 +499,7 @@ margin: 15px;
         
     }
     .btn {
-        margin-top: 70px;
+        margin-top: 45px;
         /* position: relative; */
         margin-left: -28px;
     }
