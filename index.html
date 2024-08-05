@@ -9,15 +9,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
         <div class="left">Debmalya's Portfolio</div>
-        <div class="right">
+        <div  class="right">
             <nav>
                 <li><a href="#sec">Home</a></li>
                 <li><a href="#sec_2">About</a></li>
@@ -108,8 +111,10 @@
                     
                 </div>
                 <div class="btn">
+
                     <input type="button" class="btn-1" value="Download CV" onclick="redirect_2();">
-                    <input  type="button" class="btn-1" value="Read More">
+                    <a href="#sec_2"><input  type="button" class="btn-1" value="Read More"></a>
+                    
 
                 </div>
              
@@ -124,21 +129,21 @@
 <section class="sec_2" id="sec_2">
     <div id="head"  >About</div>
     <div class="content"> 
-        <div class="card" data-aos="flip-up"><p>I am a Information Technology  Student at JIS College Of Engineering. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Java, MySQL, HTML5, CSS, JS, C . I am passionate about developing complex applications that solve real-world problems impacting millions of users. </p></div>
-    <div  data-aos="zoom-in" ><img src="image.png" alt=""></div></div>  
+        <div class="card" data-aos="fade-down-right"><p>I am a Information Technology  Student at JIS College Of Engineering. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Java, MySQL, HTML5, CSS, JS, C . I am passionate about developing complex applications that solve real-world problems impacting millions of users. </p></div>
+    <div  data-aos="fade-down-left" ><img src="image.png" alt=""></div></div>  
 </section>
 
 <section class="sec_3" id="sec_3">
     <div id="head"  >Projects</div>
     <div class="cardEffects">
-    <div class="card-1">
+    <div class="card-1" data-aos="flip-right">
         <div class="card-inner_1">
            <div class="card-font_1">
-           <img src="pic.jpeg" alt="">
+           <img src="image/project/hospital.jpeg" alt="">
            </div>
             <div class="card-back_1">
                 <h1>DevLife Hospital Management System</h1>
-                <p> It is a full-stack project on Hospital Management that
+                <p id="card_p"> It is a full-stack project on Hospital Management that
                     utilizes HTML, CSS, Java, MySql and Bootstrap. The
                     project focuses on serving doctors, patients, and
                     hospital administrators. The project caters to doctors,
@@ -147,28 +152,30 @@
                     For doctors, there is a separate login page where they
                     can manage their work. Additionally, administrators
                     have their own login page to monitor all activities.</p>
-                    <button >Direct Link</button><link rel="stylesheet" href=""></button>
+                    <!-- <a href="https://deb006p.github.io/Weather-Updates/">View</a> -->      
+                                                                       <!--project view unavailable for now -->
             </div>
         </div>
 
     </div>
-    <div class="card-2">
+    <div class="card-2" data-aos="flip-right">
         <div class="card-inner_1">
             <div class="card-font_1">
-            <img src="hotel_img.jpg" alt="img">
+            <img src="image/project/hotel_img.jpg" alt="img">
             </div>
              <div class="card-back_1">
                  <h1>Hotel Management System</h1>
                  <p>
                     Hotel Reservation System 🛏️ This project is a simple and interactive hotel reservation system implemented in Java and MySQL. It allows you to manage hotel reservations, view current bookings, edit reservation details, and more. Perfect for small hotels and guesthouses!</p>
-                     <button >Direct Link</button><link rel="stylesheet" href=""></button>
+                    <!-- <a href="https://deb006p.github.io/Weather-Updates/">View</a> -->
+                                                 <!--project view unavailable for now -->
              </div>
          </div>
 </div> 
-<div class="card-2">
+<div class="card-3" data-aos="flip-right" >
     <div class="card-inner_1">
         <div class="card-font_1">
-        <img src="portfolio_img.png" alt="img">
+        <img src="image/project/portfolio_img.png" alt="img">
         </div>
          <div class="card-back_1">
              <h1>Self Portfolio</h1>
@@ -178,10 +185,29 @@ What You’ll Find Here:
 Projects: Explore my latest web designs, code snippets, and digital experiments.
 Journey: Follow my professional journey—from learning to launching.
 Contact: Reach out—I’d love to connect and collaborate.</p>
-                 <button >Direct Link</button><link rel="stylesheet" href=""></button>
+<a href="">View</a>
          </div>
      </div>
 </div>
+<div class="card-5" data-aos="flip-right" >
+    <div class="card-inner_1">
+        <div class="card-font_1">
+        <img src="image/project/weather.jpg" alt="img">
+        </div>
+         <div class="card-back_1">
+             <h1>WeatherNow</h1>
+             <p>
+                🌦️ WeatherNow: Stay Informed, Rain or Shine!
+
+                Are you tired of checking multiple weather websites or apps to get accurate updates for different cities? Look no further! WeatherNow is here to simplify your weather tracking experience.
+                
+                What is WeatherNow? WeatherNow is a web application that provides real-time weather updates for any city worldwide. Whether you’re a traveler planning your next adventure or a local resident curious about the day’s forecast, WeatherNow has you covered.</p>
+                <a href="https://deb006p.github.io/Weather-Updates/">View</a>
+                 
+         </div>
+     </div>
+</div>
+
 </div>
     <!-- </div> -->
 </section>
@@ -198,7 +224,7 @@ Contact: Reach out—I’d love to connect and collaborate.</p>
         </div>
 </div>
 <div id="topic">Others</div>
-    <div class="skill_img" data-aos="flip-up">
+    <div class="skill_img" data-aos="flip-down">
         <div id="card_skill" >
             <img src="skill_logo/git-logo.png" alt="img">
         </div>
@@ -223,7 +249,7 @@ Contact: Reach out—I’d love to connect and collaborate.</p>
 </section>
 <section class="sec_6">
     <div id="head">Achievement</div>
-    <div class="card-1">
+    <div class="card-4">
         <div class="card-inner_1">
            <div class="card-font_1">
            <img src="image/patent.png" alt="">
@@ -231,7 +257,7 @@ Contact: Reach out—I’d love to connect and collaborate.</p>
             <div class="card-back_1">
                 <h3>AI Based LPG Gas Leakage Detection and Fire Alert System Notification</h3>
                 <p>The proposed invention is an LPG gas detector integrated with a fire detection system, coupled with a WhatsApp notification mechanism. This innovation aims to enhance home safety by promptly identifying gas leak and potential fire hazards.The patent application seeks to secure the intellectual property rights for this innovative and potentially life-saving technology</p>
-                <button >View</button><link rel="stylesheet" href=""></button>
+                <a href="redirect/patent.pdf">View</a>
             </div>
         </div>
 
@@ -241,15 +267,16 @@ Contact: Reach out—I’d love to connect and collaborate.</p>
 <section class="sec_7" id="sec_7">
     <div id="head"  >Contact</div>
   
-    <div class="content_2b"> 
-        <div class="card_2b" data-aos="flip-up">
+    <div class="content_2b">
+        <div class="card_2b" data-aos="zoom-out-up">
             <div><i class="fa-solid fa-phone"></i> +91 7439033371</div>
-            <div>        <i class="fa-solid fa-envelope"></i> debmalyapan4@gmail.com
+
+            <div><i class="fa-solid fa-envelope"></i> <a id="email_contact" href="https://mail.google.com/mail/u/0/#inbox?compose=new">debmalyapan4@gmail.com</a>
             </div>
-            <div><i class="fa-brands fa-github"></i> github.com/deb006P</div>
-            <div><i class="fa-brands fa-linkedin"></i> linkedin.com/in/debmalyapan </div>
-    </div> 
-   
+            <div><i class="fa-brands fa-github"></i> <a id="github_contact" href="https://github.com/deb006P">github.com/deb006P</a></div>
+
+            <div><i class="fa-brands fa-linkedin"></i> <a id="linkedin_contact"  href="https://linkedin.com/in/debmalyapan">linkedin.com/in/debmalyapan</a>  </div>
+    </div>
 </section>
 
     </main>
